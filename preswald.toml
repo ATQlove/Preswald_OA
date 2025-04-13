@@ -1,0 +1,20 @@
+[project]
+title = "Video Game Sales Analysis"
+version = "0.2.0"
+port = 8501
+slug = "video-game-sales-analysis"  
+entrypoint = "hello.py"
+
+[branding]
+name = "Video Game Sales"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#F89613"
+
+[data.vgsales_csv]
+type = "csv"
+path = "data/vgsales.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
